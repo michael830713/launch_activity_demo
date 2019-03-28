@@ -14,8 +14,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_B" android:launchMode="singleInstance"
-            />
+        <activity android:name=".Activity_B" android:launchMode="singleTask"
+            android:taskAffinity="aaa.bbb"/>
 
         <activity android:name=".Activity_C" android:launchMode="standard"/>
         <activity android:name=".Activity_D" android:launchMode="standard"/>
